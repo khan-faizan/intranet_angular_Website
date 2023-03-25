@@ -6,7 +6,9 @@
 {
     color: white;
     text-decoration: underline;
+    text-align: center;
 }
+
 .brand-logo{
   width:200px
 }
@@ -29,5 +31,5 @@ ul.navbar-nav li a {
 }
 
 ul.navbar-nav li:not(:last-child) {
-  border-right: 3px solid rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+  border-right: 1px solid rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
