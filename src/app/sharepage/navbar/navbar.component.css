@@ -1,0 +1,33 @@
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active-link
+{
+    color: white;
+    text-decoration: underline;
+}
+.brand-logo{
+  width:200px
+}
+.navbar-custom{
+  padding-left: 100px;
+  border: 0px solid red;
+}
+ul.navbar-nav li {
+  display: inline-block;
+  padding-right:3rem;
+  min-width: 5rem;
+  border: 1px solid green;
+  background-color: #2bbf2b;
+  text-align: end;
+  margin-top: 20px;
+  border-radius: 9px;
+}
+ul.navbar-nav li a {
+  color: black;
+}
+
+ul.navbar-nav li:not(:last-child) {
+  border-right: 3px solid rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+}

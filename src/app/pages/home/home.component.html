@@ -1,0 +1,350 @@
+
+<!--<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">Fresh Cooked Food <br/> At Your Door.</h1>
+        <a routerLink="menu">ORDER NOW <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>-->
+<!-- step  -->
+<div  class="container mt-10 mb-5">
+    <div style="margin-top: -10px !important;" class="row mt-5">
+        <!-- one  -->
+
+        <div  class="col-lg-8 mt-2">
+          <h1 >Welcome to Al Fardan Exchange Intranet</h1>
+          <br><br><br>
+          <span style="font-size: medium;font-weight: bold;" class="text-left">ALFA PREMIER LEAGUE LEADERBOARD</span>
+          <table class="table" id="teams">
+            <thead>
+              <tr>
+                <th scope="col" >Area Name</th>
+                <th scope="col" >Team Name</th>
+                <th scope="col" >Core KPIs</th>
+                <th scope="col" >Bonus KPIs</th>
+                <th scope="col" >APL Score</th>
+                <th scope="col" >Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="background-color: red;">DUBAI NORTH</td>
+                <td style="background-color: red;">SPARTANS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">745</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">2097</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">2842</td>
+                <td style="background-color: rgb(194, 151, 70);">1</td>
+              </tr>
+              <tr>
+                <td style="background-color: rgb(184, 137, 170);">DUBAI SOUTH</td>
+                <td style="background-color: rgb(184, 137, 170);">TITANS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">605</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">1466</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">2071</td>
+                <td style="background-color: rgb(194, 151, 70);">2</td>
+              </tr>
+              <tr>
+                <td style="background-color: rgb(0, 255, 42);">ABU DHABI CITY</td>
+                <td style="background-color: rgb(0, 255, 42);">COMMANDOS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">425</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">1371</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">1796</td>
+                <td style="background-color: rgb(194, 151, 70);">3</td>
+              </tr>
+
+              <tr>
+                <td style="background-color: rgb(161, 21, 138);">AL AIN</td>
+                <td style="background-color: rgb(161, 21, 138);">KNIGHTS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">420</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">1207</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">1627</td>
+                <td style="background-color: rgb(194, 151, 70);">4</td>
+              </tr>
+              <tr>
+                <td style="background-color: rgb(121, 15, 15);">SHARJAH</td>
+                <td style="background-color: rgb(121, 15, 15);">VIVINGS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">465</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">883</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">1348</td>
+                <td style="background-color: rgb(194, 151, 70);">5</td>
+              </tr>
+              <tr>
+                <td style="background-color: rgb(23, 118, 206);">MUSSAFAH</td>
+                <td style="background-color: rgb(23, 118, 206);">GLADIATORS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">500</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">800</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">1300</td>
+                <td style="background-color: rgb(194, 151, 70);">6</td>
+              </tr>
+
+              <tr>
+                <td style="background-color: rgb(240, 226, 29);">WESTERN REGION</td>
+                <td style="background-color: rgb(240, 226, 29);">SPARTANS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">340</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">409</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">749</td>
+                <td style="background-color: rgb(194, 151, 70);">7</td>
+              </tr>
+              <tr>
+                <td style="background-color: rgb(224, 150, 13);">NE</td>
+                <td style="background-color: rgb(224, 150, 13);">WARRIORS</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">70</td>
+                <td style="background-color: rgb(235, 211, 161);color: red;">665</td>
+                <td style="background-color: rgba(155, 201, 146, 0.507);color: green;">725</td>
+                <td style="background-color: rgb(194, 151, 70);">8</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div style="border: 0px solid red;" class="col-lg-4 mt-1">
+          <div class="publicRelation ribbon">
+            Public Relations
+          </div>
+
+          <div style="align-items: center;padding-left:100px">
+            <img style="border: 0px solid red;" width="140" height="180" src="../assets/hasan_al_fardan.png" />
+          </div>
+          <div class="pt-146 text-center publicRelationPara">
+            <p style="margin-top:6.0pt; margin-right:0in; margin-bottom:6.0pt; margin-left:0in">Al Fardan Exchange is a member of the Al Fardan Group, which has roots stretching back to 1954. Emerging from a seafaring and pearl trading tradition to a commercial trade, the Al Fardan name is built on a solid bedrock of security and reliability. Leveraging on the Group’s diversified business interests and successful operations in real estate, high-end jewellery and financial services, Al Fardan Exchange holds global reach with trust and credibility as its main ethics.</p>
+            <p>Established in 1971, Al Fardan Exchange has had the unique opportunity of playing a part in supporting communities who have helped build this nation, by helping them bring life to their own dreams – both here and in their home countries.</p>
+          </div>
+        </div>
+
+
+    </div>
+    <div style="border: 0px solid red;" class="row mt-10" style="margin: 0px;">
+      <div style="border: 0px solid green;"  class="announcement col-lg-2 mt-2">
+        <div class="publicRelation ribbon1">
+          Announcements
+        </div>
+        <div>
+          <div  class="row mt-1">
+            <span class="announcementText">Pay@Branch: You can pay through any of the Al Fardan Exchange branches across the emirates
+            within 24 hours</span>
+          </div>
+          <div  class="row mt-1">
+            <span class="announcementText">Debit/Credit Card Visa and Master Card: easy option to pay through with minimal costs.</span>
+          </div>
+          <div  class="row mt-1">
+            <span class="announcementText">Al Fardan Exchange has received the prestigious Dubai Service Excellence Scheme award of the year</span>
+          </div>
+          <div  class="row" style="margin-top: 10rem!important;">
+            <div class="input-group" >
+              <div class="form-outline">
+                <input style="border-radius: 30px;font-weight: bold;
+                border: 1px black solid; background:transparent;" id="search-focus"
+                placeholder="Search" type="search" id="form1" class="form-control" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="border: 0px solid green;"  class="quick-links col-lg-4 mt-2">
+        <div class="publicRelation ribbon1">
+          Quick Links
+        </div>
+        <div class="">
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Afex Onclick</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >Job Openings</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Cancellation Form</a>
+              </span>
+            </div>
+          </div>
+
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >WU Cancellation</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >Ammendment form</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >WPS salary form</a>
+              </span>
+            </div>
+          </div>
+
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Who is who</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >Innovation Hub</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Refund request</a>
+              </span>
+            </div>
+          </div>
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >HR News Letter</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >Document Request</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Corporate Appointment</a>
+              </span>
+            </div>
+          </div>
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Market Place</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >Whistle Blowing</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Employee Handbook</a>
+              </span>
+            </div>
+          </div>
+          <div  class="row mt-3">
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >SOP</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://alfardanexchange.com/careers" >FAQ</a>
+              </span>
+            </div>
+            <div class="col-lg-1 mt-2 hex3">
+              <span style="font-size: 12px;text-align: center;">
+                <a class="nav-link" style="color:black" target="_blank" rel="noopener noreferrer"
+                 href="https://afexonline.net/app/afexonline/f?p=105" >Branch Operation Mannual</a>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div style="border: 0px solid green;"  class="afex-online col-lg-3 mt-2">
+        <div class="publicRelation ribbon1">
+          Afex Online
+        </div>
+          <div class="wrap-login100">
+            <form class="login100-form validate-form">
+
+               <span class="login100-form-title p-b-48">
+               <i class="zmdi zmdi-font"></i>
+               </span>
+               <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
+                  <input class="input100" type="text" name="email">
+                  <span class="focus-input100" data-placeholder="USERNAME"></span>
+               </div>
+               <div class="wrap-input100 validate-input" data-validate="Enter password">
+                  <span class="btn-show-pass">
+                  <i class="zmdi zmdi-eye"></i>
+                  </span>
+                  <input class="input100" type="password" name="pass">
+                  <span class="focus-input100" data-placeholder="PASSWORD"></span>
+               </div>
+               <div class="container-login100-form-btn">
+                  <div class="wrap-login100-form-btn">
+                     <div class="login100-form-bgbtn"></div>
+                     <button class="login100-form-btn">
+                     Login
+                     </button>
+                  </div>
+               </div>
+               <div style="margin-top: 20px;" class="text-center p-t-115">
+                  <span class="txt1">
+                    Reset your password
+                  </span>
+               </div>
+               <div style="margin-top: 4px;" class="text-center p-t-115">
+                <span class="txt1">
+                  Activate Account
+                </span>
+             </div>
+            </form>
+         </div>
+      </div>
+      <div style="border: 0px solid green;"  class="rates col-lg-3 mt-2">
+        <div class="publicRelation ribbon1">
+          Today Rates
+        </div>
+        <div class="rateDiv">
+
+        </div>
+      </div>
+      <div class="row mt-10" >
+
+        <div style class="ticker-wrapper-h">
+          <div class="heading">Trending Now</div>
+
+          <ul class="news-ticker-h">
+            <li><a href="">Al Fardan is lauching 3 more branches in upcoming weeks.</a></li>
+            <li><a href="">You can transfer money using wallet through Alfapay app</a></li>
+            <li><a href="">New remittance services are coming soon for Bangladesh</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- foodbox  -->
+<div style="display:none" class="container mt-4 mb-4">
+    <h1 class="text-center">Customers <span class="highlight">Favourites Food</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
+            <div class="foodbox" *ngIf="i<=3">
+                <img src="{{fd.foodImg}}" />
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+</div>
