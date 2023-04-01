@@ -6,13 +6,17 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { OperationsComponent } from './pages/operations/operations.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { ITComponent } from './pages/it/it.component';
+import { MarketingComponent } from './pages/marketing/marketing.component';
+import { HrComponent } from './pages/hr/hr.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
-  {path:'menu',component:MenuComponent},
+  {path:'hr',component:HrComponent},
   {path:'menu/:id',component:MenupageComponent},
   {path:'about',component:AboutComponent},
-  {path:'contact',component:ContactComponent},
+  {path:'it',component:ITComponent},
+  {path:'marketing',component:MarketingComponent},
   {path:'operations',component:OperationsComponent}
 ];
 

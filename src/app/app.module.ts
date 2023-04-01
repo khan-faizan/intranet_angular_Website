@@ -11,6 +11,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { OperationsComponent } from './pages/operations/operations.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { ITComponent } from './pages/it/it.component';
+import { MarketingComponent } from './pages/marketing/marketing.component';
+import { HrComponent } from './pages/hr/hr.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     AboutComponent,
     ContactComponent,
     MenupageComponent,
-    OperationsComponent
+    OperationsComponent,
+    ITComponent,
+    MarketingComponent,
+    HrComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

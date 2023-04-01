@@ -173,12 +173,10 @@ marquee{
     padding: 0;
     padding-left: 90%;
     z-index: 999;
-
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: tic-h;
     animation-duration: 30s;
-
   }
   .news-ticker-h:hover {
     animation-play-state: paused;
